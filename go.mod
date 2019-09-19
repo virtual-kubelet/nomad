@@ -10,13 +10,13 @@ require (
 	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
 	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef // indirect
 	github.com/google/uuid v1.0.0
-	github.com/gorhill/cronexpr v0.0.0-20180427100037-88b0669f7d75 // indirect
 	github.com/gorilla/mux v1.7.2 // indirect
 	github.com/hashicorp/consul/api v1.1.0 // indirect
 	github.com/hashicorp/go-hclog v0.9.2 // indirect
 	github.com/hashicorp/go-immutable-radix v1.1.0 // indirect
 	github.com/hashicorp/go-version v1.2.0 // indirect
-	github.com/hashicorp/nomad v0.9.3
+	github.com/hashicorp/nomad v0.9.5
+	github.com/hashicorp/nomad/api v0.0.0-20190918202907-8602b125129f
 	github.com/hashicorp/raft v1.1.0 // indirect
 	github.com/hashicorp/vault/api v1.0.2 // indirect
 	github.com/imdario/mergo v0.3.7 // indirect
@@ -56,4 +56,6 @@ replace k8s.io/kubernetes => k8s.io/kubernetes v1.14.3
 
 replace go.opencensus.io => go.opencensus.io v0.19.3
 
-replace github.com/hashicorp/nomad => github.com/hashicorp/nomad v0.8.6
+replace git.apache.org/thrift.git => github.com/apache/thrift v0.0.0-20180902110319-2566ecd5d999
+
+replace github.com/gorilla/websocket => github.com/gorilla/websocket v1.4.1
